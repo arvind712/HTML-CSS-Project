@@ -1,197 +1,273 @@
-
-
-
-
-
-/* 
-.hr{
-    border-top:1px solid black ;
+* {
+  font-family: "Segoe UI", "Segoe UI Historic", "Segoe UI Symbol", "Lato",
+    "Liberation Sans", "Noto Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  margin: 0;
+  line-height: 25px;
+  padding: 0;
+  color: white;
+  background-color: black;
+  /* font-size: 15px; */
 }
 
-.top_header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;               
-    gap : 20px;
-    background-color: white;
-    padding: 10px 20px;
-}
-.top_header h2{
-    margin:0;
-    font-size: 22px;
-    color: black;
-}
-.search_container form{
-    display: flex;
-    align-items: center;
-    padding-left: 120px;
-    margin-top: 5px;
-}
-.search_container input{
-    padding: 6px 10px;
-    font-size: 14px;
-    border: 1px solid black;
-    border-radius: 0px;
-}
-.search_container button{
-    margin-left: 0px;
-    padding: 6px 10px;
-    font-size: 14px;
-    background-color: #4CAF50;
-    color: black;
-    border: none;
-    border-radius: 0px;
-    cursor: pointer;
-}
-.search_container button:hover{
-    background-color: #45a049;
-}
-.account_container{
-    color: black;
-    font-size: 14px;
-}
-.account_container select{
-    padding: 5px;
-    font-size: 14px;
-    border-radius: 2px;
-    border: none;
+.top-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  position: fixed;
+  box-sizing: border-box;
 }
 
-
-.main{
-    background-color: white;
-    padding : 5px;
-    color: black;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    border-radius: 10px;
+.header-title,
+.form {
+  padding-right: 40px;
+  margin: 0;
+  padding: 0;
 }
 
-.left_sidebar{
-    background-color: white;
-    padding : 5px;
-    color: black;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
+.input-text {
+  height: 30px;
+  width: 900px;
 }
-.navigation{
-    background-color: white;
-    padding : 5px;
-    color: black;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
+.submit-btn {
+  height: 30px;
+  width: 150px;
+  text-align: center;
 }
-
-.community{
-    background-color: white;
-    padding : 5px;
-    color: black;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
+.input-text,
+.submit-btn {
+  border: 2px solid white;
+}
+.dropdown-menu {
+  height: 30px;
+  width: 200px;
+  background-color: inherit;
+  border: 2px solid white;
 }
 
-.middle{
-    background-color: white;
-    padding : 5px;
-    color: black;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-}
-.site_news{
-    background-color: white;
-    text-align: center;
-    display: flex;
-    box-sizing: border-box;
-    text-align: center;
-    flex-direction: column;
-    border: 2px solid black;
-}
-.mid_main{
-    background-color: white;
-    padding : 5px;
-    color: black;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-}
-.mid_main1{
-    background-color: violet;
-    padding : 5px;
-    color: black;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    text-align: center;
+.rgb-line {
+  height: 10px;
+  background: linear-gradient(to right, red, blue, green);
 }
 
-.mid_main2{
-    background-color: violet;
-    padding : 5px;
-    color: black;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap : wrap;
-    border-radius: 10px;
+.main {
+  border: 3px solid goldenrod;
+  border-radius: 10px;
+  display: flex;
+  align-items: stretch;
 }
 
-.mid_main2_news,.mid_main2_Article,.mid_main2_did_you_know,.mid_main2_Help_Fire_Emblem_Wiki{
-    background-color: violet;
-    padding : 5px;
-    color: black;
-    border: 2px solid black;
+.left-sidebar {
+  width: 250px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px 10px;
 }
 
-
-
-.right_sidebar{
-    background-color: white;
-    padding : 5px;
-    color: black;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-}
-.more{
-    background-color: white;
-    padding : 5px;
-    color: black;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-}
-.categories{
-    background-color: white;
-    padding : 5px;
-    color: black;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
+.right-sidebar {
+  width: 250px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px 10px;
 }
 
+.navigation,
+.community,
+.wiki-tools,
+.more,
+.categories {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+
+.navigation h3,
+.community h3,
+.wiki-tools h3,
+.more h3,
+.categories h3 {
+  font-weight: 400;
+}
+
+.navigation div a,
+.community div a,
+.wiki-tools div a,
+.more div a,
+.categories div a {
+  color: blue;
+}
+
+.middle {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 10px;
+}
+.site-news {
+  text-align: center;
+  border: 5px double white;
+  border-radius: 5px;
+}
+.site-news p {
+  font-size: small;
+}
+
+.middle-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+}
+.opt-1,
+.opt-2 {
+  display: flex;
+  gap: 20px;
+}
+.main-mid {
+  border: 2px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-mid-1 {
+  margin: 5px;
+  border: 2px solid white;
+  border-radius: 5px 5px 0px 0px;
+  text-align: center;
+}
+.main-mid-1 h2 {
+  margin-top: 10px;
+}
+
+.main-mid-1 p {
+  font-size: small;
+}
+.hr {
+  height: 2px;
+  background-color: white;
+  margin: 5px;
+}
+
+.main-mid-2 {
+  border-radius: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin: 5px;
+  padding: 0;
+  width: auto;
+}
+
+.Box-1,
+.Box-2,
+.Box-3,
+.Box-4 {
+  width: 570px;
+  align-items: center;
+  font-size: 20px;
+  font-size: 15px;
+  font-size: small;
+  border: 2px solid white;
+}
+.Box-1 h2,
+.Box-2 h2,
+.Box-3 h2,
+.Box-4 h2,
+.Box-4 p {
+  text-align: center;
+}
+.Box-1 p {
+  text-align: left;
+  padding-left: 20px;
+}
+.Box-1 strong {
+  text-indent: 40px;
+  padding-left: 10px;
+}
+
+.Box-2 img {
+  float: left;
+  height: 200px;
+  width: 150px;
+}
+.Box-2 p {
+  display: block;
+  margin: 5px;
+  padding-left: 20px;
+}
+
+.Box-3 ul,
+.Box-4 ul {
+  margin-left: 25px;
+  display: block;
+  padding-left: 15px;
+}
+
+.Box-4 input {
+  width: 300px;
+  background-color: white;
+}
+.Box-4 button {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.Box-4 input,
+.Box-4 button {
+  margin: 5px 0px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  border-radius: 3px;
+}
+
+.main-mid-3 {
+  border: 2px solid white;
+  border-radius: 0px 0px 5px 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  font-size: small;
+  padding-bottom: 10px;
+}
+.main-mid-3 img {
+  height: 130px;
+  width: 150px;
+  margin-left: 500px;
+}
+
+.main-mid-31 {
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0px auto;
+  padding: 5px 10px;
+  gap: 40px;
+  text-align: left;
+  font-size: small;
+  width: fit-content;
+}
+
+.main-mid-31 ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-position: inside;
+}
 
 footer {
-    background-color: lightgray;
-    color: black;
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
+  margin-left: 20px;
+  font-size: small;
 }
-footer p {
-    margin: 10px 0;
-} */

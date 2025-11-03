@@ -1,253 +1,344 @@
 <html>
-
-<head>
+  <head>
     <title>Fire Emblem Wiki</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <div id="top-header">
-        <h2>Fire Emblem Wiki</h2>
-
-        <div class="search_container">
-            <form>
-                <input type="text" placeholder="Search Fire Emblem Wiki..." />
-                <button type="submit">Search</button>
-            </form>
-        </div>
-
-        <div class="account_container" id="accountBtn">
-            <i class="fa-solid fa-user" style="font-size:20px; color:white;"></i>
-            <select class="dropdown_menu" id="dropdownMenu"
-                style="background-color: black; color: white;border-color: black;">
-                <option value="Not_Logged_in" style="background-color: black; border-color: black;"> <i
-                        class="fa-solid fa-user" style="font-size:20px; color:white;"></i> Anonymous</option>
-                <option value="Create_account" style="background-color: black; border-color: black;">Create Account
-                </option>
-                <option value="Log_in" style="background-color: black; border-color: black;">Log In</option>
-            </select>
-        </div>
+  <body>
+    <div class="top-header">
+      <h2><a href="" class="header-title">Fire Emblem wiki</a></h2>
+      <div class="search_container">
+        <form class="form">
+          <input class="input-text" placeholder="Search Fire Emblem Wiki..." />
+          <button class="submit-btn" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="account-dropdown">
+        <select class="dropdown-menu">
+          <option>Anonymous</option>
+          <option>Create Account</option>
+          <option>Log In</option>
+        </select>
+      </div>
     </div>
+    <br /><br />
+    <div class="rgb-line"></div>
+    <img src="images/top-cover-pic.jpg" />
 
     <div class="main">
+      <div class="left-sidebar">
+        <div class="navigation">
+          <h3>Navigation</h3>
+          <hr />
+          <div><a href="#">Main Page</a></div>
+          <div><a href="#">About</a></div>
+          <div><a href="#">Wanted Pages</a></div>
+          <div><a href="#">Recent Changes</a></div>
+          <div><a href="#">Random File</a></div>
+          <div><a href="#">Sand Box</a></div>
+          <div><a href="#">Help</a></div>
+          <div><a href="#">Projects</a></div>
+          <div><a href="#">To Do List</a></div>
+        </div>
+        <br /><br />
 
-        <div class="left_sidebar">
-            <div class="navigation">
-                <h2>Navigation</h2>
-                <a href="#">Main Page</a>|
-                <a href="#">About</a>|
-                <a href="#">Wanted Pages</a>|
-                <a href="#">Recent Changes</a>|
-                <a href="#">Random File</a>|
-                <a href="#">Sand Box</a>|
-                <a href="#">Help</a>|
-                <a href="#">Projects</a>|
-                <a href="#">To do list</a>
-            </div><br>
-            <div class="community">
-                <h2>Community</h2>
-                <a href="#">Feaured Articles</a> |
-                <a href="#">Discoed</a> |
-                <a href="#">Social media</a> |
-                <a href="#">Ostia Square</a> |
-                <a href="#">Affiliates and partners</a>
-            </div>
-            <div class="wiki_tools">
-                <a href="#">Special pages</a>
-                <a href="#">Cargo data</a>
-            </div>
+        <div class="community">
+          <h3>Community</h3>
+          <hr />
+          <div><a href="#">Feaured Articles</a></div>
+          <div><a href="#">Discoed</a></div>
+          <div><a href="#">Social media</a></div>
+          <div><a href="#">Ostia Square</a></div>
+          <div><a href="#">Affiliates and partners</a></div>
+        </div>
+        <br /><br />
+
+        <div class="wiki-tools">
+          <h3>Wiki Tools..</h3>
+          <hr />
+          <div><a href="#">Special pages</a></div>
+          <div><a href="#">Cargo data</a></div>
+        </div>
+      </div>
+
+      <div class="middle">
+        <div class="site-news">
+          <h3>Site News</h3>
+          <p href="#">
+            <strong>Warning : </strong> This wiki contains spoilers.Read at your
+            own risk!
+          </p>
+          <br />
+          <p href="#">
+            <strong>Social media : </strong>If you would like,please join our
+            Discord server,and/or follow us on X(Twitter), Bluesky, or Tumblr!
+          </p>
         </div>
 
-        <div class="middle">
-            <div class="site_news">
-                <h2>Site News</h2>
-                <p href="#"><strong>Warning : </strong> This wiki contains spoilers.Read at your own risk!</p><br>
-                <p href="#"><Strong>Social media : </Strong>If you would like,please join our Discord server,and/or
-                    follow us on X(Twitter), Bluesky, or Tumblr!</p>
-            </div>
-            <h2>Main Page</h2>
-            <hr>
-            <div>
-                <a href="mid_side">Main Page</a>
-                <a href="mid_side">Discussion</a>
-                <a href="mid_side">View Source</a>
-                <a href="mid_side">History</a>
-            </div>
-            <div class="mid_main">
-                <!-- <div class="mid_main1">
-                        <div class="mid_main1_1">
-                            <h2>Welcome to fire Emblem Wiki!</h2><br>
-                            <p>An Online fire Emblem encyclopedia that anyone can edit.<br> 
-                            With <strong>13,816</strong> articles are counting!<br> 
-                            This wiki contains <strong>spoilers.</strong>
-                            Read at your own risk!</p>
-                        </div>
-                        <div class="mid_main1_2">
-                            <p>
-                                Shadow Dragon & the Blade of Light ~ Gaiden ~  Mystery of the Emblem ~ Genealogy of the Holy War ~ Thracia 776<br>
-                                The Binding Blade ~ The Blazing Blade ~ The Sacred Stones ~ Path of Radiance ~ Radiant Dawn<br>
-                                Shadow Dragon ~ New Mystery of the Emblem ~ Awakening ~ Fates ~ Shadows of Valentia ~ Three Houses ~ Engage<br>
-                                Archanea Saga ~ Tokyo Mirage Sessions ♯FE ~ Heroes ~ Warriors ~ Three Hopes<br>
-                                Yutona Heroes War Chronicles ~ Berwick Saga ~ War of the Scions ~ The Sacred Sword of Silvanister
-                            </p>
-                        </div>
-                    </div> -->
-                <div class="mid_main1">
-                    <h2>Welcome to fire Emblem Wiki!</h2>
-                    <p>An Online fire Emblem encyclopedia that anyone can edit.<br>
-                        With <strong>13,816</strong> articles are counting!<br>
-                        This wiki contains <strong>spoilers.</strong>
-                        Read at your own risk!<br>
-                    </p>
-                    <div class="hr"></div>
-                    <p>
-                        Shadow Dragon & the Blade of Light ~ Gaiden ~ Mystery of the Emblem ~ Genealogy of the Holy War
-                        ~ Thracia 776<br>
-                        The Binding Blade ~ The Blazing Blade ~ The Sacred Stones ~ Path of Radiance ~ Radiant Dawn<br>
-                        Shadow Dragon ~ New Mystery of the Emblem ~ Awakening ~ Fates ~ Shadows of Valentia ~ Three
-                        Houses ~ Engage<br>
-                        Archanea Saga ~ Tokyo Mirage Sessions ♯FE ~ Heroes ~ Warriors ~ Three Hopes<br>
-                        Yutona Heroes War Chronicles ~ Berwick Saga ~ War of the Scions ~ The Sacred Sword of
-                        Silvanister
-                    </p>
-                </div>
-                <div class="mid_main2">
-                    <div class="mid_main2_news">
-                        <h2>News</h2>
-                        <a href="#"><strong>24 September 2025</strong> Fire Emblem Shadows has been announced and
-                            released for iOS and Android.</a>
-                        <a href="#"><strong>12 September 2025</strong> Fire Emblem: Fortune's Weave has been announced
-                            for Nintendo Switch 2.</a>
-                        <a href="#"><strong>21 April 2025</strong> Fire Emblem: The Sacred Stones has been released on
-                            Nintendo Switch Online.</a>
-                        <a href="#"><strong>2 April 2025</strong> Fire Emblem: Path of Radiance has been announced for
-                            release on Nintendo Switch 2's Nintendo GameCube Nintendo Classics app at some point in the
-                            future.</a>
-                        <a href="#"><strong>5 April 2023</strong>The fourth and final wave of DLC for Fire Emblem Engage
-                            has been released.</a>
-                    </div>
-                    <div class="mid_main2_Article">
-                        <h2>Featured Articles</h2>
-                        <p>The Branded (Japanese: 印付き Marked Ones) are a race present in Fire Emblem:
-                            Path of Radiance and Fire Emblem: Radiant Dawn.
-                            They are the result of breeding between laguz and beorc,
-                            and bear a mark signifying their heritage.
-                            In both laguz and beorc societies in Tellius,
-                            they are a stigmatized race, looked down upon
-                            by both as less than human owing to their mutual
-                            mythologies falsely claiming the sexual union of
-                            a laguz and beorc to be a crime against the goddess;
-                            the beorc call them "Branded" in reference to their mark,
-                            while the laguz call them "parentless" and typically refuse
-                            to acknowledge them. According to laguz legend, when a parentless
-                            one comes into being, a century of destruction follows.
-                        </p>
-                    </div>
-                    <div class="mid_main2_did_you_know">
-                        <h2>Did You Know?</h2>
-                        <ul>
-                            <li>...in Thracia 776, a unit's hit rate cannot go above 99% or below 1%?</li>
-                            <li>...Lyn's unique animation for using the Sol Katti is unused in the Japanese version of
-                                The Blazing Blade?</li>
-                            <li>...many of the children characters in Awakening share their birthdays with release dates
-                                of past Fire Emblem titles?</li>
-                            <li>...in Echoes: Shadows of Valentia the Sound Room can be accessed early by entering Up,
-                                Down, Left, Right, Up on the title screen?</li>
-                            <li>...Renning is programmed to be able to use Amiti in Radiant Dawn, despite the fact that
-                                it can never be placed into his inventory?</li>
-                        </ul>
-                    </div>
-                    <div class="mid_main2_Help_Fire_Emblem_Wiki">
-                        <p>
-                        <h2>Help Fire Emblem Wiki!</h2><br>
-                        Fire Emblem Wiki needs a lot of help and assistance.<br>
-                        <strong>1,503 pages are stubs!</strong>
-                        </p>
-                        <ul>
-                            <li>Short articles that need expansion are in the Stubs category.</li>
-                            <li>Articles with incomplete sections can be found here.</li>
-                            <li>There are many articles that link to nonexistent articles. A list of these nonexistent
-                                articles can be found here.</li>
-                            <li>Additionally, you can help by creating a new page. To do so, simply enter the title
-                                here:</li>
-                            <form>
-                                <input type="text"><br>
-                                <button type="submit">Submit</button>
-                            </form>
-                        </ul>
-                    </div>
-                </div>
-                <div class="mid_main3">
-                    <p><a>NIWA</a> is a network of independent wikis focusing on various <a href="#">Nintendo</a>
-                        franchises.</p>
-                    <div class="mid_main3_1">
-                        <ul>
-                            <li><a href="#">ARMS Institute : </a> ARMS</li>
-                            <li><a href="#">Bulbapedia : </a> Pokémon</li>
-                            <li><a href="#">Chibi-Robo! Wiki :</a> Chibi-Robo!</li>
-                            <li><a href="#">Dragalia Lost Wiki :</a> Dragalia Lost</li>
-                            <li><a href="#"> Drawn to Life Wiki :</a> Drawn to Life</li>
-                            <li><a href="#">F-Zero Wiki :</a> F-Zero</li>
-                            <li><a href="#"> Golden Sun Universe :</a> Golden Sun</li>
-                            <li><a href="#">Hard Drop Tetris Wiki :</a> Tetris</li>
-                            <li><a href="#">Icaruspedia :</a> Kid Icarus</li>
-                            <li><a href="#">Inkipedia : </a> Splatoon</li>
+        <h2 class="main-page-h2">Main Page</h2>
+        <hr class="hr-line" />
 
-                            <li><a href="#">Kingdom Hearts Wiki :</a> Kingdom Hearts</li>
-                            <li><a href="#">Kovopedia : </a> Magical Vacation</li>
-                            <li><a href="#">Lylat Wiki : </a> Star Fox</li>
-                            <li><a href="#"> Metroid Wiki :</a> Metroid</li>
-                            <li><a href="#"> MiiWiki :</a> Miis</li>
-                            <li><a href="#">NintendoWiki :</a> Nintendo</li>
-                            <li><a href="#">Nookipedia :</a> Animal Crossing</li>
-                            <li><a href="#">Pikipedia :</a> Pikmin</li>
-                            <li><a href="#">Pikmin Fanon :</a> Pikmin fanon</li>
-                            <li><a href="#">Rhythm Heaven Wiki :</a> Rhythm Heaven</li>
-
-                            <li><a href="#">SmashWiki :</a> Super Smash Bros.</li>
-                            <li><a href="#">Starfy Wiki : </a> The Legendary Starfy</li>
-                            <li><a href="#">StrategyWiki : </a> Game guides</li>
-                            <li><a href="#">Super Mario Wiki :</a>Super Mario</li>
-                            <li><a href="#">Ukikipedia :</a>Super Mario 64</li>
-                            <li><a href="#">Wars Wiki :</a> Nintendo Wars</li>
-                            <li><a href="#">WikiBound: :</a>EarthBound/Mother</li>
-                            <li><a href="#">WiKirby :</a> Kirby</li>
-                            <li><a href="#"> Xeno Series Wiki :</a>Xeno</li>
-                            <li><a href="#">Zelda Wiki :</a>The Legend of Zelda</li>
-
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <div class="middle-options">
+          <div class="opt-1">
+            <a href="mid_side">Main Page</a>
+            <a href="mid_side">Discussion</a>
+          </div>
+          <div class="opt-2">
+            <a href="mid_side">View Source</a>
+            <a href="mid_side">History</a>
+          </div>
         </div>
 
-        <div class="right_sidebar">
-            <div class="more">
-                <h2>More</h2>
-                <a href="#">What links here</a>|
-                <a href="#">Related Changes</a>|
-                <a href="#">Printable version</a>|
-                <a href="#">Permanent link</a>|
-                <a href="#">Page Informations</a>|
-                <a href="#">Page logos</a>|
+        <div class="main-mid">
+          <div class="main-mid-1">
+            <h2>Welcome to <a href="#">Fire Emblem Wiki!</a></h2>
+            <p>
+              An Online <a href="#">fire Emblem</a> encyclopedia that anyone can
+              edit.<br />
+              With <strong>13,816</strong> articles are counting!<br />
+              This wiki contains <strong>spoilers.</strong> Read at your own
+              risk!<br />
+            </p>
+            <div class="hr"></div>
+            <img src="images/one.png" />
+            <img src="images/two.png" />
+            <img src="images/three.png" />
+            <img src="images/four.png" />
+            <img src="images/five.png" />
+            <img src="images/six.png" />
+            <img src="images/seven.png" />
+            <img src="images/eight.png" />
+            <img src="images/nine.png" />
+            <img src="images/ten.png" />
+            <img src="images/eleven.png" />
+            <img src="images/twelve.png" />
+            <img src="images/thirteen.png" />
+            <img src="images/fourteen.png" />
+            <img src="images/fifteen.png" />
+            <img src="images/sixteen.png" />
+            <img src="images/seventeen.png" />
+            <p>
+              Shadow Dragon & the Blade of Light ~ Gaiden ~ Mystery of the
+              Emblem ~ Genealogy of the Holy War ~ Thracia 776<br />
+              The Binding Blade ~ The Blazing Blade ~ The Sacred Stones ~ Path
+              of Radiance ~ Radiant Dawn<br />
+              Shadow Dragon ~ New Mystery of the Emblem ~ Awakening ~ Fates ~
+              Shadows of Valentia ~ Three Houses ~ Engage<br />
+              Archanea Saga ~ Tokyo Mirage Sessions ♯FE ~ Heroes ~ Warriors ~
+              Three Hopes<br />
+              Yutona Heroes War Chronicles ~ Berwick Saga ~ War of the Scions ~
+              The Sacred Sword of Silvanister
+            </p>
+          </div>
+
+          <div class="main-mid-2">
+            <div class="Box-1">
+              <h2>News</h2>
+              <strong>24 September 2025</strong> <br />
+              <p>
+                <a href="#">Fire Emblem Shadows</a> has been announced and
+                released for iOS and Android.
+              </p>
+              <strong>12 September 2025</strong> <br />
+              <p>
+                <a href="#">Fire Emblem: Fortune's Weave</a> has been announced
+                for Nintendo Switch 2.
+              </p>
+              <strong>21 April 2025</strong> <br />
+              <p>
+                <a href="#">Fire Emblem: The Sacred Stones</a> has been released
+                on Nintendo Switch Online.
+              </p>
+              <strong>2 April 2025</strong> <br />
+              <p>
+                <a href="#">Fire Emblem: Path of Radiance</a> has been announced
+                for release on Nintendo Switch 2's Nintendo GameCube Nintendo
+                Classics app at some point in the future.
+              </p>
+              <strong>5 April 2023</strong> <br />
+              <p>
+                The fourth and final wave of DLC for Fire Emblem Engage has been
+                released.
+              </p>
+              <a href="#">archive</a>
             </div>
-            <div class="categories">
-                <h2>Categories</h2>
-                <a href="#">Fire Emblem Wiki</a>
+
+            <div class="Box-2">
+              <h2>Featured Articles</h2>
+              <img src="images/feartured-image.png" />
+              <p>
+                The Branded (Japanese: 印付き Marked Ones) are a race present in
+                Fire Emblem: Path of Radiance and Fire Emblem: Radiant Dawn.
+                They are the result of breeding between laguz and beorc, and
+                bear a mark signifying their heritage.<br />
+                In both laguz and beorc societies in Tellius, they are a
+                stigmatized race, looked down upon by both as less than human
+                owing to their mutual mythologies falsely claiming the sexual
+                union of a laguz and beorc to be a crime against the goddess;
+                the beorc call them "Branded" in reference to their mark, while
+                the laguz call them "parentless" and typically refuse to
+                acknowledge them. According to laguz legend, when a parentless
+                one comes into being, a century of destruction follows. In both
+                laguz and beorc societies in Tellius, they are a stigmatized
+                race, looked down upon by both as less than human owing to their
+                mutual mythologies falsely claiming the sexual union of a laguz
+                and beorc to be a crime against the goddess; the beorc call them
+                "Branded" in reference to their mark, while the laguz call them
+                "parentless" and typically refuse to acknowledge them. According
+                to laguz legend, when a parentless one comes into being, a
+                century of destruction follows.
+              </p>
             </div>
+
+            <div class="Box-3">
+              <h2>Did You Know?</h2>
+              <ul>
+                <li>
+                  ...in Thracia 776, a unit's hit rate cannot go above 99% or
+                  below 1%?
+                </li>
+                <li>
+                  ...Lyn's unique animation for using the Sol Katti is unused in
+                  the Japanese version of The Blazing Blade?
+                </li>
+                <li>
+                  ...many of the children characters in Awakening share their
+                  birthdays with release dates of past Fire Emblem titles?
+                </li>
+                <li>
+                  ...in Echoes: Shadows of Valentia the Sound Room can be
+                  accessed early by entering Up, Down, Left, Right, Up on the
+                  title screen?
+                </li>
+                <li>
+                  ...Renning is programmed to be able to use Amiti in Radiant
+                  Dawn, despite the fact that it can never be placed into his
+                  inventory?
+                </li>
+              </ul>
+            </div>
+
+            <div class="Box-4">
+              <h2>Help Fire Emblem Wiki!</h2>
+              <br />
+              <p>
+                Fire Emblem Wiki needs a lot of help and assistance.<br />
+                <strong>1,503 pages are stubs!</strong>
+              </p>
+              <ul>
+                <li>
+                  Short articles that need expansion are in the Stubs category.
+                </li>
+                <li>Articles with incomplete sections can be found here.</li>
+                <li>
+                  There are many articles that link to nonexistent articles. A
+                  list of these nonexistent articles can be found here.
+                </li>
+                <li>
+                  Additionally, you can help by creating a new page. To do so,
+                  simply enter the title here:
+                </li>
+                <form>
+                  <input type="text" />
+                  <button type="submit">Submit</button>
+                </form>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main-mid-3">
+            <img src="images/NIWA-image.png" />
+            <p>
+              <a>NIWA</a> is a network of independent wikis focusing on various
+              <a href="#">Nintendo</a> franchises.
+            </p>
+            <br />
+            <div class="main-mid-31">
+              <div>
+                <ul>
+                  <li><a href="#">ARMS Institute : </a> ARMS</li>
+                  <li><a href="#">Bulbapedia : </a> Pokémon</li>
+                  <li><a href="#">Chibi-Robo! Wiki :</a> Chibi-Robo!</li>
+                  <li><a href="#">Dragalia Lost Wiki :</a> Dragalia Lost</li>
+                  <li><a href="#"> Drawn to Life Wiki :</a> Drawn to Life</li>
+                  <li><a href="#">F-Zero Wiki :</a> F-Zero</li>
+                  <li><a href="#"> Golden Sun Universe :</a> Golden Sun</li>
+                  <li><a href="#">Hard Drop Tetris Wiki :</a> Tetris</li>
+                  <li><a href="#">Icaruspedia :</a> Kid Icarus</li>
+                  <li><a href="#">Inkipedia : </a> Splatoon</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li><a href="#">Kingdom Hearts Wiki :</a> Kingdom Hearts</li>
+                  <li><a href="#">Kovopedia : </a> Magical Vacation</li>
+                  <li><a href="#">Lylat Wiki : </a> Star Fox</li>
+                  <li><a href="#"> Metroid Wiki :</a> Metroid</li>
+                  <li><a href="#"> MiiWiki :</a> Miis</li>
+                  <li><a href="#">NintendoWiki :</a> Nintendo</li>
+                  <li><a href="#">Nookipedia :</a> Animal Crossing</li>
+                  <li><a href="#">Pikipedia :</a> Pikmin</li>
+                  <li><a href="#">Pikmin Fanon :</a> Pikmin fanon</li>
+                  <li><a href="#">Rhythm Heaven Wiki :</a> Rhythm Heaven</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li><a href="#">SmashWiki :</a> Super Smash Bros.</li>
+                  <li><a href="#">Starfy Wiki : </a> The Legendary Starfy</li>
+                  <li><a href="#">StrategyWiki : </a> Game guides</li>
+                  <li><a href="#">Super Mario Wiki :</a>Super Mario</li>
+                  <li><a href="#">Ukikipedia :</a>Super Mario 64</li>
+                  <li><a href="#">Wars Wiki :</a> Nintendo Wars</li>
+                  <li><a href="#">WikiBound: :</a>EarthBound/Mother</li>
+                  <li><a href="#">WiKirby :</a> Kirby</li>
+                  <li><a href="#"> Xeno Series Wiki :</a>Xeno</li>
+                  <li><a href="#">Zelda Wiki :</a>The Legend of Zelda</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="right-sidebar">
+        <div class="more">
+          <h3>More</h3>
+          <hr />
+          <div><a href="#">What links here</a></div>
+          <div><a href="#">Related Changes</a></div>
+          <div><a href="#">Printable version</a></div>
+          <div><a href="#">Permanent link</a></div>
+          <div><a href="#">Page Informations</a></div>
+          <div><a href="#">Page logos</a></div>
+        </div>
+        <div class="categories">
+          <h3>Categories</h3>
+          <hr />
+          <div><a href="#">Fire Emblem Wiki</a></div>
+        </div>
+      </div>
     </div>
-    <hr>
+    <hr />
+
+    <div class="rgb-line"></div>
+
     <footer>
-        <p>This Page was last edited on 7 July 2024,at 01:15</p>
-        <p>Content is available under GNU Free Documentation License 1.3 unless otherwise noted.</p>
-        <p><a href="#">Privacy policy</a> | <a href="#">About Fire Emblem Wiki</a> | <a href="#">Disclaimers</a> | <a
-                href="#">Cookie policy</a> | <a href="#">Mobile view</a></p>
+      <p>This Page was last edited on 7 July 2024,at 01:15</p>
+      <p>
+        Content is available under GNU Free Documentation License 1.3 unless
+        otherwise noted.
+      </p>
+      <p>
+        <a href="#">Privacy policy</a> |
+        <a href="#">About Fire Emblem Wiki</a> | <a href="#">Disclaimers</a> |
+        <a href="#">Cookie policy</a> | <a href="#">Mobile view</a>
+      </p>
     </footer>
-
-</body>
-
+  </body>
 </html>
