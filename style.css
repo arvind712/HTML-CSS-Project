@@ -1,0 +1,197 @@
+
+
+
+
+
+/* 
+.hr{
+    border-top:1px solid black ;
+}
+
+.top_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;               
+    gap : 20px;
+    background-color: white;
+    padding: 10px 20px;
+}
+.top_header h2{
+    margin:0;
+    font-size: 22px;
+    color: black;
+}
+.search_container form{
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    margin-top: 5px;
+}
+.search_container input{
+    padding: 6px 10px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+.search_container button{
+    margin-left: 0px;
+    padding: 6px 10px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.search_container button:hover{
+    background-color: #45a049;
+}
+.account_container{
+    color: black;
+    font-size: 14px;
+}
+.account_container select{
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 2px;
+    border: none;
+}
+
+
+.main{
+    background-color: white;
+    padding : 5px;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.left_sidebar{
+    background-color: white;
+    padding : 5px;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.navigation{
+    background-color: white;
+    padding : 5px;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.community{
+    background-color: white;
+    padding : 5px;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.middle{
+    background-color: white;
+    padding : 5px;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.site_news{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.mid_main{
+    background-color: white;
+    padding : 5px;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.mid_main1{
+    background-color: violet;
+    padding : 5px;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mid_main2{
+    background-color: violet;
+    padding : 5px;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap : wrap;
+    border-radius: 10px;
+}
+
+.mid_main2_news,.mid_main2_Article,.mid_main2_did_you_know,.mid_main2_Help_Fire_Emblem_Wiki{
+    background-color: violet;
+    padding : 5px;
+    color: black;
+    border: 2px solid black;
+}
+
+
+
+.right_sidebar{
+    background-color: white;
+    padding : 5px;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.more{
+    background-color: white;
+    padding : 5px;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.categories{
+    background-color: white;
+    padding : 5px;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: lightgray;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+footer p {
+    margin: 10px 0;
+} */
